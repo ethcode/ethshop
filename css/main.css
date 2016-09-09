@@ -9,7 +9,7 @@ a { text-decoration: none; }
 .eth-toppanel, .eth-toppanel nav ul, .eth-header,
 .eth-search-cart, .eth-search-cart form, .eth-cart,
 .eth-menu ul, .eth-htext>div, .eth-materials-wrapper,
-.eth-index-mprice {
+.eth-index-mprice, .eth-matrials-wrapper2 {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -21,7 +21,7 @@ a { text-decoration: none; }
 .eth-toppanel, .eth-header, .eth-cart { align-items: center; }
 .eth-cart, .eth-htext>div { justify-content: center; }
 .eth-toppanel, .eth-header, .eth-index-mprice, 
-.eth-materials-wrapper { justify-content: space-between; }
+.eth-materials-wrapper, .eth-matrials-wrapper2 { justify-content: space-between; }
 .eth-toppanel { text-transform: uppercase; }
 .eth-toppanel { color: #A8CACA; }
 .eth-toppanel a { color: inherit; }
@@ -106,9 +106,11 @@ main { min-height: 100vh; }
 }
 .eth-materials-wrapper>div>div { padding: 1em }
 .eth-materials-wrapper>div>div>h2 { font-size: 1.2em; margin-bottom: 0.28em; }
-.eth-materials-wrapper>div>div>:last-child{ border-top: 1px solid #444; padding: 4em 0 0 0; margin-top: 0.28em; }
+.eth-materials-wrapper>div>div>:last-child{ border-top: 1px solid #444; padding: 1em 0 0 0; margin-top: 1em; }
 .eth-materials-wrapper>div { background: #FFFFFF; flex: 0 1 270px; }
-.eth-materials-wrapper img { width: 100%; }
+.eth-materials-wrapper img, .eth-matrials-wrapper2 img { width: 100%; display: block; }
+.eth-matrials-wrapper2>div{ background: #FFFFFF; flex: 0 1 210px; }
+.eth-matrials-wrapper2>div>a { display: block; text-align: center; padding: 0.8em; font-size: 1em; color: inherit; }
 
 
 
