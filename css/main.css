@@ -1,0 +1,32 @@
+/*
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+*/
+body { font-family: 'Roboto Condensed', sans-serif; }
+a { text-decoration: none; }
+.eth-shell { width: 1140px; margin: auto; }
+/* Группированные стили стили */
+.eth-toppanel, .eth-toppanel nav ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
+}
+.eth-toppanel { align-items: center; }
+.eth-toppanel { justify-content: space-between; }
+.eth-toppanel { text-transform: uppercase; }
+.eth-toppanel { font-size: 0.8em; }
+.eth-toppanel { color: #D8D8D8; }
+.eth-toppanel a { color: inherit; }
+/* Верхняя панель сайта */
+.eth-toppanel-wrapper, .eth-toppanel { background: #21110E; }
+.eth-toppanel { height: 32px; }
+.eth-toppanel nav ul li:not(:last-child) {
+    padding-right: 1em;
+    margin-right: 1em;
+    border-right: 1px solid #6E6E6E;
+}
+.eth-toppanel a:hover { color: #FFFFFF; }
+.eth-auth a>.fa-sign-in { color: #449D3A; margin-right: 0.4em; }
+.eth-auth a:not(:last-child) { margin-right: 1em; } 
